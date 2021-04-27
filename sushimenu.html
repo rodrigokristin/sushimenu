@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sushi Mania</title>
+    <link rel="stylesheet" href="styles-sushimenu.css">
+    <link rel="icon" href="img/sushi-logo.png" type="image/icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+      <header>
+        <!--LOGO-->
+        <a href="sushimenu.html" class="logo">
+          <img src="img/sushi-logo.png">
+          <span>Sushi <br> Mania</span>
+        </a>
+
+        <!--NAV WIDE-->
+        <nav class="nav-wide">
+          <ul>
+            <li><a href="#sashimi">Sashimi</a></li>
+            <li><a href="#nigiri">Nigiri</a></li>
+            <li><a href="#hosomaki">Hosomaki</a></li>
+            <li><a href="#uramaki">Uramaki</a></li>
+            <li><a href="#temaki">Temaki</a></li>
+            <li><a href="#gunkan">Gunkan</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!--NAV MOBILE-->
+      <nav class="nav-small">
+        <div id="menuToggle">
+          <!--hidden checkbox is used as click reciever-->
+          <input type="checkbox"/>
+          <!--spans = hamburger-->
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <ul id="menu">
+            <li><a href="#sashimi">Sashimi</a></li>
+            <li><a href="#nigiri">Nigiri</a></li>
+            <li><a href="#hosomaki">Hosomaki</a></li>
+            <li><a href="#uramaki">Uramaki</a></li>
+            <li><a href="#temaki">Temaki</a></li>
+            <li><a href="#gunkan">Gunkan</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--MENU SUSHI-->
+      <div class="container">
+
+          <div id="sashimi" class="item">
+            <div class="img">
+              <picture>
+                <source media="(max-width: 750px)"
+                        srcset="img/sashimi-small.jpg">
+                <img src="img/sashimi.jpg">
+              </picture>
+            </div><!--END IMG-->
+
+            <div class="description sashimi">
+              <h1>Sashimi</h1>
+              <dl>
+                <dt>Sake</dt>
+                  <dd>salmone</dd>
+                <dt>Maguro</dt>
+                  <dd>tonno</dd>
+                <dt>Suzuki</dt>
+                  <dd>branzino</dd>
+                <dt>Amaebi</dt>
+                  <dd>gamberi crudi</dd>
+                <dt>Sashimi mix</dt>
+                  <dd>salmone, tonno, branzino, gamberi crudi</dd>
+              </dl>
+            </div><!--END DESCRIPTION-->
+          </div><!--END ITEM-->
+
+          <div id="nigiri" class="item">
+            <div class="img">
+              <picture>
+                <source media="(max-width: 750px)"
+                        srcset="img/nigiri-small.jpg">
+                <img src="img/nigiri.jpg">
+              </picture>
+            </div>
+
+            <div class="description nigiri">
+              <h1>Nigiri</h1>
+              <dl>
+                <dt>Sake</dt>
+                  <dd>salmone</dd>
+                <dt>Maguro</dt>
+                  <dd>tonno</dd>
+                <dt>Suzuki</dt>
+                  <dd>branzino</dd>
+                <dt>Tako</dt>
+                  <dd>polipo</dd>
+                <dt>Ebi</dt>
+                  <dd>gambero cotto</dd>
+                <dt>Yaki suzuki</dt>
+                  <dd>branzino cotto</dd>
+                <dt>Yaki sake</dt>
+                  <dd>salmone scottato e salsa teriyaki</dd>
+                <dt>Special yaki sake</dt>
+                  <dd>salmone scottato, maionese e pistacchio</dd>
+              </dl>
+            </div>
+          </div>
+
+          <div id="hosomaki" class="item">
+            <div class="img">
+              <picture>
+                <source media="(max-width: 750px)"
+                        srcset="img/hosomaki-small.jpg">
+                <img src="img/hosomaki.jpg">
+              </picture>
+            </div>
+
+            <div class="description hosomaki">
+              <h1>Hosomaki</h1>
+              <dl>
+                <dt>Hoso sake</dt>
+                  <dd>piccoli roll di salmone</dd>
+                <dt>hoso maguro</dt>
+                  <dd>piccoli roll di tonno</dd>
+                <dt>Hoso kappa</dt>
+                  <dd>piccoli roll di cetrioli</dd>
+                <dt>Hoso avocado</dt>
+                  <dd>piccoli roll di avocado</dd>
+                <dt>Hoso ebi</dt>
+                  <dd>piccoli roll di gamberi</dd>
+              </dl>
+            </div>
+          </div>
+
+          <div id="uramaki" class="item">
+            <div class="img">
+              <picture>
+                <source media="(max-width: 750px)"
+                        srcset="img/uramaki-small.jpg">
+                <img src="img/uramaki.jpg">
+              </picture>
+            </div>
+
+            <div class="description uramaki">
+              <h1>Uramaki</h1>
+              <dl>
+                <dt>Sake</dt>
+                  <dd>salmone e avocado</dd>
+                <dt>Maguro</dt>
+                  <dd>tonno e avocado</dd>
+                <dt>Philadelphia</dt>
+                  <dd>salmone, philadelphia e avocado</dd>
+                <dt>Ebiten</dt>
+                  <dd>tempura di gamberi, cetrioli e maionese</dd>
+                <dt>California</dt>
+                  <dd>surimi di granchio, maionese e avocado</dd>
+                <dt>Rainbow</dt>
+                  <dd>surimi di granchio, avocado, pesce misto e salsa teriyaki</dd>
+                <dt>Salmon out</dt>
+                  <dd>salmone, maionese, salmone e uova di pesce all'esterno</dd>
+                <dt>Miura</dt>
+                    <dd>salmone cotto, philadelphia e salsa teriyaki</dd>
+                <dt>Spicy sake</dt>
+                  <dd>salmone, maionese e salsa piccante</dd>
+                <dt>Spicy maguro</dt>
+                  <dd>tonno, maionese e salsa piccante</dd>
+              </dl>
+            </div>
+          </div>
+
+          <div id="temaki" class="item">
+            <div class="img">
+              <picture>
+                <source media="(max-width: 750px)"
+                        srcset="img/temaki-small.jpg">
+                <img src="img/temaki.jpg">
+              </picture>
+            </div>
+
+            <div class="description temaki">
+              <h1>Temaki</h1>
+              <dl>
+                <dt>Sake</dt>
+                  <dd>salmone e avocado</dd>
+                <dt>Maguro</dt>
+                  <dd>tonno e avocado</dd>
+                <dt>Ebiten</dt>
+                  <dd>tempura di gamberi, cetrioli e maionese</dd>
+                <dt>Veggie</dt>
+                  <dd>avocado, cetrioli, insalata e maionese</dd>
+                <dt>Spicy sake</dt>
+                  <dd>salmone, avocado, maionese e salsa piccante</dd>
+                <dt>Spicy maguro</dt>
+                  <dd>tonno, avocado, maionese e salsa piccante</dd>
+                <dt>Special sake</dt>
+                  <dd>salmone, avocado, philadelphia e insalata</dd>
+                <dt>Special maguro</dt>
+                  <dd>tonno, avocado, philadelphia e insalata</dd>
+              </dl>
+            </div>
+          </div>
+
+          <div id="gunkan" class="item">
+            <div class="img">
+              <picture>
+                <source media="(max-width: 750px)"
+                        srcset="img/gunkan-small.jpg">
+                <img src="img/gunkan.jpg">
+              </picture>
+            </div>
+
+            <div class="description gunkan">
+              <h1>Gunkan</h1>
+              <dl>
+                <dt>Tobiko</dt>
+                  <dd>pallina di riso avvolta da alga nori ricoperta da uova di pesce</dd>
+                <dt>Sake</dt>
+                  <dd>pallina di riso avvolta da alga nori ricoperta da salmone</dd>
+                <dt>Maguro</dt>
+                  <dd>pallina di riso avvolta da alga nori ricoperta da tonno</dd>
+                <dt>Spicy sake</dt>
+                  <dd>pallina di riso avvolta da salmone piccante ricoperta da uova di pesce</dd>
+                <dt>Spicy maguro</dt>
+                  <dd>pallina di riso avvolta da tonno piccante ricoperta da uova di pesce</dd>
+              </dl>
+            </div>
+          </div>
+
+        <footer>rodrigokristin@gmail.com &copy; 2021</footer>
+
+      </div><!--END CONTAINER-->
+
+  </body>
+</html>
